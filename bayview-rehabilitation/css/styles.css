@@ -1,0 +1,1101 @@
+/*****************Google Fonts*********************/
+/*@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');*/
+/**************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+.logo{
+    margin: 0px;
+}
+
+/********Brand logo**********/
+.navbar-brand img {
+    width: 67%;
+    padding-top: 6%;
+}
+
+
+/*for the mail and telephone */
+.address {
+    margin-top: 1.25%;
+}
+
+.email a,
+.mob a {
+    height: 25px;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    color: #494242;
+    text-decoration: none;
+}
+
+.email a:hover,
+.mob a:hover {
+    /*color: #00B5B3;#00b4b1*/
+    /*color:#00b4b1; #15908e*/
+    color:#15908e;
+
+}
+
+.email,
+.mob {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 6%;
+}
+
+.email img {
+    width: 3%;
+    height: 4%;
+    margin-top: .8%;
+    margin-right: 1%;
+}
+
+.mob img {
+    width: 3%;
+    height: 4%;
+    margin-right: 1%;
+}
+
+.mob a,
+.mob img {
+    margin-top: .2%;
+}
+
+/****************navigation-start***************/
+
+.mobile-only-booking {
+    display: none;
+}
+
+.navbar-nav .active a {
+    color: #04e0dd !important;
+    border-bottom: 2px solid #04e0dd;
+}
+
+.nav-link {
+    margin-right: 30px;
+    font-family: 'Muli', sans-serif;
+}
+
+.collapse {
+    margin-left: 1.8%;
+}
+
+.book-now-nav {
+    border: 1px solid #04e0dd;
+    border-radius: 20px;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 100%;
+    background-color: transparent;
+}
+
+.book-now-nav a {
+    color: #04e0dd;
+    text-decoration: none;
+}
+
+.book-now-nav:hover {
+   background-color:antiquewhite;
+}
+
+
+
+/****************navigation-end***************/
+/*to make the hamburger align to right in mobile view*/
+/*.navbar,
+.navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+}
+*/
+/*to make the hamburger align to right in mobile view*/
+
+
+
+
+
+
+/************carousel styling - start***************/
+/*.bd-example{
+    max-width: 100%;
+}*/
+/*
+
+.carousel-item img{
+    height: 80vh; 
+}
+*/
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.animated {
+    animation-delay: 0.15s;
+    font-family: 'Muli', sans-serif;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+/*.carousel-caption p{
+font-family: 'Muli', sans-serif;
+  font-size: 65px;
+  font-weight: 100;
+}*/
+
+.colordtext {
+    color: #04e0dd;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-booking {
+    border: 1px solid #04e0dd;
+    padding: 10px 25px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn-booking a {
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+.btn-booking:hover {
+    background-color:#fff;
+    text-decoration: none;
+}
+
+/************carousel styling-end***************/
+
+
+
+/**********used inside the values block - start************/
+
+.value {
+    margin-bottom: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.value-block h5 {
+    text-align: center;
+    padding-top: 11px;
+    font-size: 28px;
+    font-weight: 80;
+    /*font-family: 'Muli', sans-serif;*/
+    margin-bottom: 20px;
+}
+
+.value-block {
+    /* float: left;
+    width: 30%;*/
+    /*padding-top: 50px;
+   
+    /*padding-top: 4%;
+    padding-bottom: 2%;
+   
+    padding-right: 3%;
+   
+    margin: 1%;*/
+    /*padding-left: 8%;
+    padding-right: 3%;*/
+    /*margin-left: 0.15%;*/
+    text-align: center;
+
+    background-color: white;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 1, 0.2);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.value-block:hover {
+    transform: scale(1.05);
+    transition: all 550ms;
+}
+
+/**********used inside the values block - end************/
+
+
+/****************few milestones achieved by org. - start***************/
+.descr,
+.social {
+    margin-top: 3%;
+}
+
+.descr p {
+    font-size: 20px;
+    font-weight: 80;
+    text-align: center;
+}
+
+.achievements {
+    margin-top: 3%;
+}
+
+.achievements img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.achievements p {
+    margin-left: -25%;
+    margin-top: 7%;
+
+}
+
+.achieve {
+    margin-right: -46px;
+}
+
+/****************few milestones achieved by org. - end***************/
+
+/****************footer stlying - start***************/
+.footer {
+    background-color: #403E3E;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 80px;
+    /*font-family: 'Muli', sans-serif;*/
+    font-weight: 100;
+    width: 100%;
+}
+
+/****************footer stlying-end***************/
+
+
+
+/***********$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$SERVICES PAGE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$**********************************/
+
+.services-img-headings {
+    /*font-family: 'Muli', sans-serif;*/
+    text-align: center;
+    background-image: url("../images/home/knee.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.exceptional {
+    font-size: 35px;
+}
+
+.exceptional-rehab {
+    font-size: 35px;
+}
+
+
+.services-img-text {
+    font-size: 23px;
+}
+
+.btn-booking-secondary {
+    padding-top: 10px;
+    border: 1px solid aqua;
+    padding: 10px 25px;
+    font-size: 25px;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-bottom: 2%;
+    background-color: transparent;
+}
+
+.btn-booking-secondary a {
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+.btn-booking-secondary:hover {
+    background-color: #fff;
+}
+
+.services {
+    padding-top: 22px;
+    /*font-family: 'Muli', sans-serif;*/
+}
+
+.service-heading-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.services-text {
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+
+
+/***********$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$SERVICES PAGE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$**********************************/
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$CONDITONS TREATED PAGE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/*.regular .slick-conatiner{
+    border: 1px solid aqua;
+    width: 100px;
+    height: 300px;
+}*/
+
+.slickk {
+    border: 1px solid #00FFFF;
+    /*max-width: 100px;*/
+    height: 300px;
+}
+
+.regular {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+/*******other stylings**********/
+
+.cndtn {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 1, 0.2);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.conditions-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.conditions-heading {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.conditions-heading h4 {
+    margin: 0 auto;
+}
+
+.conditions-elements {
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin-left: 25px;
+
+}
+
+.conditions-elements p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$CONDITONS TREATED PAGE$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+
+/*************************MEET THE TEAM****************/
+
+/*veronica added css styles from here on*/
+.title h1 {
+    text-align: center;
+}
+
+.specialist p {
+    color: #04e0dd;
+}
+
+/*.col-md-4 {
+    padding-top: 40px;
+    padding-left: 70px;
+}*/
+
+.team-icon {
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+.col-md-4 h2 {
+    /*font-family: 'Muli', sans-serif;*/
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.thumbnail {
+    border-radius: 30px;
+}
+
+/*************************MEET THE TEAM****************/
+
+
+/****************************FAQ's**************/
+
+/*AnnA's CSS*/
+
+/*
+body {
+  font-family: 'Muli', sans-serif;
+}
+*/
+
+.searchbar {
+    width: 100%;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.content {
+    padding: 0 10%;
+}
+
+.btn-link {
+    color: grey;
+    text-decoration: none;
+}
+
+.btn-link:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-link:active {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*************************FAQ's End********************/
+
+
+/*********************CONTACT US**********************/
+
+/*-***********************************CONTACT US___________________________*****/
+header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+header img {
+    margin-left: 40px;
+}
+
+header h5 {
+    /*font-family: 'Muli', sans-serif;*/
+    font-weight: 100;
+    margin-right: 40px;
+    font-size: 15px;
+}
+
+.title {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.title h1 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 24px;
+}
+
+.location img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.location {
+    padding-top: 30px;
+}
+
+.location h1 {
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 26px;
+}
+
+.emailphone {
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+
+.staff img {
+    float: left;
+    width: 20px;
+    padding-top: 5px;
+
+}
+
+.phone img {
+    float: left;
+    width: 20px;
+}
+
+.fax img {
+    float: left;
+    width: 20px;
+}
+
+.staff p {
+    margin-left: 30px;
+
+}
+
+.phone p {
+    margin-left: 30px;
+
+}
+
+.fax p {
+    margin-left: 30px;
+
+}
+
+.phone {
+    margin-left: 60px;
+}
+
+.fax {
+    margin-left: 60px;
+}
+
+/*.footer{
+  background-color: #403E3E;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #ffff;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+}*/
+.maps iframe {
+    height: 360px;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*******************CONTACT US END**************************/
+
+
+
+/********************FEES PAGE*****************/
+.fees-heading {
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.fees-elements p::before {
+    content: "";
+    height: 45px;
+    width: 1px;
+    background: #04e0dd;
+    float: left;
+    margin-right: 12px;
+
+}
+
+.fees-elements {
+    border-bottom: 1px solid #04e0dd;
+    width: 90%;
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.fees p{
+    border-bottom: 1px solid #04e0dd;
+    width: 30%;
+    margin-left: 25px;
+
+
+}
+
+/***********************FEES PAGE**************/
+
+
+/******************************BOOK*******************/
+
+.title{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.title h1{
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 24px;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Muli', sans-serif;
+}
+.discription{
+  text-align: center;
+}
+.discription h5{
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+
+}
+.bookingform{
+ text-align:center;;
+
+}
+/**********************BOOK*************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*###################################################################*/
+/*****************************media queries**************************/
+/*#####################################################################*/
+
+/******************For mobile devices 425px,375px,320px************/
+
+@media only screen and (max-width:425px) {
+
+    /***********to bring the hamburger symbol to top right corner**********/
+    .navbar-toggler {
+        position: absolute;
+        right: 26px;
+        top: -32px;
+        font-size: 12px;
+    }
+
+
+    .email {
+        padding: 10px;
+        margin-top: 110px;
+    }
+
+
+    /****to reduce the font in carousel****/
+    .carousel-caption {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    /******to hide the email and telephone and the book now button in navigation in mobile view*/
+    .address,
+    .book-now-nav,
+    .btn-booking {
+        display: none;
+    }
+
+  .navbar-nav  .active a {
+        border-bottom: 2px solid #fff;
+    }
+
+    /********to make the mobile only booking option available in mobile view************/
+    .mobile-only-booking {
+        display: block;
+        background-color: #7fffd4;
+    }
+
+    .carousel-caption {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .animated {
+        font-size: 18px;
+    }
+
+    .active {
+        border-bottom: 0px;
+    }
+
+    .value-block {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+        /*nullify the one present in team*/
+    }
+
+
+    /*   .value-block {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }*/
+
+    .achieve {
+        margin: 0 auto;
+    }
+
+    .achievements p {
+        text-align: center;
+        margin-top: 7%;
+        margin-left: 25px;
+        /*To nullify the laptop view effect*/
+
+    }
+
+    /***********************services page***************/
+    .services {
+        text-align: center;
+        /*image at center*/
+        padding-left: 0px;
+        /*nullify the one in team page*/
+    }
+
+    .sh {
+        display: block;
+        /*override flex of norml vw*/
+        text-align: center;
+    }
+
+    .services-text {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .ohipul {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    /*******************aligning image and text***********/
+
+    #second {
+        order: 2;
+    }
+
+    /*******************aligning image and text***********/
+
+    /***********************services page***************/
+
+    /*    body {
+        background-color: brown;
+    }*/
+}
+
+
+/***********For tablets*******************/
+
+
+@media only screen and (min-width:768px) and (max-width:768px) {
+    /* body {
+        background-color: yellow;
+    }*/
+
+    /********to make the mobile only booking option available in mobile view************/
+    .mobile-only-booking {
+        display: block;
+        background-color: #7fffd4;
+    }
+
+    .mob img {
+        width: 8%;
+        margin-right: 1%;
+    }
+
+    /*****************book now option in hamburger display is hidden*************/
+    .book-now-nav {
+        display: none;
+    }
+
+   /* .active a {
+        border-bottom: 2px solid #fff;
+    }*/
+
+    .carousel-caption {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .animated {
+        font-size: 33px;
+    }
+
+    .mobile-only-booking {
+        display: block;
+        background-color: aquamarine;
+    }
+
+    .active {
+        border-bottom: 0px;
+        
+    }
+
+    .navbar {
+        clear: both;
+    }
+
+    /*   .value-block {
+        float: left;
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+    }*/
+
+    .value {
+        text-align: center;
+    }
+
+    .achieve {
+        margin-right: 2px;
+    }
+
+}
+
+
+
+/*****************for desktops************/
+@media(min-width:1025px) {
+    .nav-link {
+
+        /*font-family: 'Muli', sans-serif;*/
+
+    }
+
+    .carousel-caption {
+        text-align: center;
+        margin-bottom: 300px;
+    }
+
+    .animated {
+        font-size: 64px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*    MODAL */
+
+.modal {
+    height: 100%;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000000;
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.modal {
+    position: fixed;
+    top: 10%;
+    z-index: 1050;
+    width: 100%;
+    background-color: #03061B;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    *border: 1px solid #999;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: none;
+}
+
+.modal small {
+    color: #04e0dd;
+}
+
+.modal.fade {
+    -webkit-transition: opacity .3s linear, top .3s ease-out;
+    -moz-transition: opacity .3s linear, top .3s ease-out;
+    -o-transition: opacity .3s linear, top .3s ease-out;
+    transition: opacity .3s linear, top .3s ease-out;
+    top: -25%;
+}
+
+.modal.fade.in {
+    top: 10%;
+}
+
+.modal-header {
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-header .close {
+    margin-top: 2px;
+}
+
+.modal-header h3 {
+    margin: 0;
+    line-height: 30px;
+}
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 700px;
+}
+
+.modal-form {
+    margin-bottom: 0;
+}
+
+.modal-footer {
+    padding: 14px 15px 15px;
+    margin-bottom: 0;
+    text-align: right;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: inset 0 1px 0 #ffffff;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #ffffff;
+    *zoom: 1;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.modal-footer:after {
+    clear: both;
+}
+
+.modal-footer .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px;
+}
+
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0;
+}
+
+.modal.fade {
+    top: -100px;
+}
+
+.modal.fade.in {
+    top: 20px;
+}
+}
+
+@media (max-width:480px) {
+    .nav-collapse {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+
+    /*    explanation*/
+
+    @media (min-width: 400px) and (max-width: 768) {}
